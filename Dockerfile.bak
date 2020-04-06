@@ -14,4 +14,4 @@ FROM java:openjdk-8-jdk
 COPY --from=build /home/app/target/spring-boot-websocket-demo-0.0.1-SNAPSHOT.war /usr/local/lib/springBoot.jar
 EXPOSE 8888
 #ENTRYPOINT ["java", "-jar", "/springBoot.jar"]
-CMD ["java", "-jar", "/springBoot.jar"]
+CMD ["java", "-jar", "/springBoot.jar"] 
