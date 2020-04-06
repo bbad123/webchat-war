@@ -9,7 +9,7 @@ spec:
       labels:
         app: mywebchat 
     spec:
-      progressDeadlineSeconds:600
+      progressDeadlineSeconds:600 
       containers:
         - name: mywebchat 
           image: mycontainertestkk.azurecr.io/mywebchat
