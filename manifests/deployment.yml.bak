@@ -4,12 +4,12 @@ metadata:
   name: mywebchat 
 spec:
   replicas: 1
-  minReadySeconds: 10
-	strategy:
+ strategy:
   	type: RollingUpdate
   	rollingUpdate:
     	maxSurge: 0
     	maxUnavailable: 1
+  minReadySeconds: 10
   template:
     metadata:
       labels:
